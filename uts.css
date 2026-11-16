@@ -249,10 +249,10 @@ aside {
     border-radius: 0 8px 8px 0;
 }
 
-.articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+.article-grid {
+    grid-column: 1 / -1;
+    width: 50%;
+    justify-self: center;
 }
 
 .article-card {
